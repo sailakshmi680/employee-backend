@@ -4,8 +4,8 @@
   "description": "",
   "main": "node --watch index.js",
   "scripts": {
-    "start": "node --watch api.js",
-    "dev": "node --watch api.js",
+    "start": "node --watch index.js",
+    "dev": "node --watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
