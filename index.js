@@ -80,7 +80,10 @@ const client = new MongoClient(
     }
   })
 
+  const PORT = process.env.PORT;
 
-  app.listen('4000',() => {
-    console.log('App is running on port 4000')
-  })
+
+  app.listen(PORT, () => {
+    console.log(`Server running on ${PORT}`);
+    console.log(`http://localhost:${PORT}`);
+  });
